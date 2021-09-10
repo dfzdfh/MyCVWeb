@@ -3,6 +3,13 @@
 <head>
     <title>My CV</title>
     <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allison&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allison&family=Parisienne&display=swap" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/font-awesome.min.css" />
 </head>
 <body>
     <style type="text/css">
@@ -28,6 +35,10 @@
         #khungtuade ul li a {
             text-decoration: none;
             display: block;
+            font-weight: bold;
+        }
+        #khungtuade ul li a:hover {
+            color: blue;
         }
         img {
             image-rendering: pixelated;
@@ -38,28 +49,188 @@
         }
         .text {
             position: absolute;
-            text-align: center;
-            margin-top: -100px;
+            margin-top: -500px;
             color: white;
-            font-family: VNI-Park Nomal;
-
+            font-family: VNI-Park ;
+            font-size: 100px;
+            text-align: center;
+            margin-left: 25%;
         }
         @font-face {
-            font-family: VNI-Park Nomal;
-            src: url(desktop.ini);
+            src: url(New\ folder\ \(3\)/VNI-Park);
+            font-family: VNI-Park ;
+            src: url(New\ folder\ \(3\)/Ruluko-Regular);
+            font-family: Ruluko-Regular sans-serif;
+            
+        }
+        #PI {
+            margin-left: 800px;
+            font-family: Arial, Helvetica, sans-serif;
+            height: 60px;
+            width: 800px;
+            line-height: 40px;
+            font-size: 25px;
+            margin-top: -300px;
+        }
+        
+        .protitle{
+            position: absolute;
+            content: ":";
+            color: black;
+            font-size: 15px;
+            left: 77px;
+        }
+        #khungprofile{
+            margin-top: 100px;
+
+        }
+        #khungprofile ul {
+            list-style-type: none;
+            font-size: 20px;
+            background-color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 35px;
+            margin-left: 760px;
+        }
+        #khungprofile ul li {
+            display: inline-table;
+            width:  200px;
+            height: 30px;
+            
+        }
+        #khungprofile ul li a {
+            display: block;
+            text-align: left; 
+        }
+        #khunganh {
+            height: 600px;
+            width: 600px;
+            background-color: cornsilk;
+            margin-left: 30px;
+            margin-top: 100px;
+            padding: 10px;
+        }
+        #mywork{
+            width:100%;
+            height:600px;
+            background-color: rgb(237, 238, 238);
+            float: left;
+        }
+        #khungmywork{
+            margin-top: 100px;
+            background: white;
+            border-radius: 4px;
+            padding-top: 48px;
+            padding-left: 20;
+            padding-bottom: 48px;
+            padding-right: 20px;
+            box-shadow: 0px 0px 10px rgb(0 0 0 / 20%);
+            text-align: center;
+            width: 250px;
+            height: 200px;
+            margin-left: 100px;
+            float:left
+        }
+        #khungmywork ul {
+            list-style-type: none;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-top: 90px;
+            text-align: center;
+            color: rgb(0, 116, 116);
+        }
+        #khungmywork ul li {
+            height: 50px;
+            margin-left: -10px;
         }
     </style>
     <div id="khungtuade">
         <ul class="khungtuade" style="color: gray;">
-            <li> <a typle="text-decoration: none" href="#PI">MY SELF</a></li>
+            <li> <a type="text-decoration: none" href="#PI">MY SELF</a></li>
             
-            <li> <a typle="text-decoration: none" href="#mywork">MY WORK</a></li>
+            <li> <a type="text-decoration: none" href="#mywork">MY WORK</a></li>
             
-            <li> <a typle="text-decoration: none" href="#myproject">MY PROJECT</a></li>
+            <li> <a type="text-decoration: none" href="#myproject">MY PROJECT</a></li>
             
         </ul>
     </div>
         <img src="https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2021/09/07/4276710081.jpg">
-        <h1 class="text">Hi! This Is</h1>
+        <h1 class="text">Hi! Welcome<br>To My Curriculum Vitae</h1>
+        <div id="khunganh">
+            <img src="https://1.bp.blogspot.com/--cwALLkjCmE/YGLZYq7VqvI/AAAAAAAArCw/4uWXNg5iBYQsblpvSO2UDHEG5NF4RYWtgCNcBGAsYHQ/s0/2d27fefccf755efa36a6ba7c9c8ff5db.jpeg">
+        </div>
+        <p class="PI" id="PI" style="font-size: 35px; margin-top: -550px;"><b>Hi Guys!</b> </p>
+        <p class="PI" id="PI" style="font-size: 20px; margin-top: 0px">I'm an amateurs web developer. 
+        And of course I am try to become professional front-end developer. 
+        Here is my basic imformation. If you want to have more detail. 
+        Please contact me by following options. 
+        I am very glad to coporate with your company.
+        </p>
+    <div id="khungprofile">
+        <ul>
+            <li><a type="font-weight: bold"><b>Name</b></a></li>
+            <li><a>:</a></li>
+            <li><a>Bui Huy Phuoc</a></li>
+        </ul>
+        <ul>
+            <li><a type="font-weight: bold"><b>Date Of Birth</b></a></li>
+            <li><a>:</a></li>
+            <li><a>04/02/2003</a></li>
+        </ul>
+        <ul>
+            <li><a type="font-weight: bold"><b>Country</b></a></li>
+            <li><a>:</a></li>
+            <li><a>VietNam</a></li>
+        </ul>
+        <ul>
+            <li><a type="font-weight: bold"><b>Location</b></a></li>
+            <li><a>:</a></li>
+            <li><a>Ho Chi Minh City</a></li>
+        </ul>
+        <ul>
+            <li><a type="font-weight: bold"><b>E-mail</b></a></li>
+            <li><a>:</a></li>
+            <li><a>dfzdfh@gmail.com</a></li>
+        </ul>
+        <ul>
+            <li><a type="font-weight: bold"><b>Phone</b></a></li>
+            <li><a>:</a></li>
+            <li><a>0334379439</a></li>
+        </ul>
+        <ul>
+            <li><a type="font-weight: bold"><b>Location</b></a></li>
+            <li><a>:</a></li>
+            <li><a>Ho Chi Minh City</a></li>
+        </ul>
+    </div>
+    <div class="mywork" id="mywork">
+        <div style="margin-top: 50px;text-align: center ;font-size: 75px;">
+            <a style="font-weight: bold; font-family: 'Parisienne';">My Work<a>
+        </div>
+        <div id="khungmywork">
+            <ul>
+                <li style="font-weight: bold;">FONT-END DEVELOPMENT</li>
+                <li>Tất nhiên là không biết gì rồi :D nghĩ sao dzay</li>
+            </ul>
+        </div>
+        <div id="khungmywork">
+            <ul>
+                <li style="font-weight: bold;">GARPHIC DESIGN</li>
+                <li>Tất nhiên là không biết gì rồi :D nghĩ sao dzay</li>
+            </ul></div>
+        <div id="khungmywork">   
+            <ul>
+                <li style="font-weight: bold;">BUSSINESS BRANDING</li>
+                <li>Tất nhiên là không biết gì rồi :D nghĩ sao dzay</li>
+            </ul>
+        </div>
+        <div id="khungmywork">
+            <ul>
+                <li style="font-weight: bold;">THẦN GÁC CỔNG</li>
+                <li>3 NĂM RANK VÀNG KHÈ KHÈ KHÈ!!</li>            
+            </ul>
+        </div>
+    </div>
+    
+    
 </body>
 <html>
